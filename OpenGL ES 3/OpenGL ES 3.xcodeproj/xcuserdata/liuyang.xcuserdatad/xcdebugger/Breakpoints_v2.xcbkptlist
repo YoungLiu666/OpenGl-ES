@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OpenGL ES 3/ViewController.m"
+            timestampString = "523506118.974791"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "-glkView:drawInRect:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OpenGL ES 3/AGLKVertexAttribArrayBuffer.m"
+            timestampString = "523448142.569794"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "-drawArrayWithMode:startVertexIndex:numberOfVertices:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AGLKVertexAttribArrayBuffer drawArrayWithMode:startVertexIndex:numberOfVertices:]"
+                  moduleName = "OpenGL ES 3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liuyang/Desktop/YL%E9%9B%B6%E7%A2%8E/OPENGL%20ES/OpenGL%20ES%203/OpenGL%20ES%203/AGLKVertexAttribArrayBuffer.m"
+                  timestampString = "523505189.867667"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "29">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AGLKVertexAttribArrayBuffer drawArrayWithMode:startVertexIndex:numberOfVertices:]"
+                  moduleName = "OpenGL ES 3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liuyang/Desktop/YL%E9%9B%B6%E7%A2%8E/OPENGL%20ES/OpenGL%20ES%203/OpenGL%20ES%203/AGLKVertexAttribArrayBuffer.m"
+                  timestampString = "523505189.869523"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OpenGL ES 3/AGLKContext.m"
+            timestampString = "523505189.42993"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "-setClearColor:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
