@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDFAF2411F4D8C4A003CBF1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFAF2401F4D8C4A003CBF1A /* main.m */; };
+		CDFAF2441F4D8C4A003CBF1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFAF2431F4D8C4A003CBF1A /* AppDelegate.m */; };
+		CDFAF2471F4D8C4A003CBF1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFAF2461F4D8C4A003CBF1A /* ViewController.m */; };
+		CDFAF24A1F4D8C4A003CBF1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFAF2481F4D8C4A003CBF1A /* Main.storyboard */; };
+		CDFAF24C1F4D8C4A003CBF1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFAF24B1F4D8C4A003CBF1A /* Assets.xcassets */; };
+		CDFAF24F1F4D8C4A003CBF1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFAF24D1F4D8C4A003CBF1A /* LaunchScreen.storyboard */; };
+		CDFAF25A1F4D8C4A003CBF1A /* OpenGL__________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFAF2591F4D8C4A003CBF1A /* OpenGL__________Tests.m */; };
+		CDFAF2651F4D8C4A003CBF1A /* OpenGL__________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFAF2641F4D8C4A003CBF1A /* OpenGL__________UITests.m */; };
+		CDFAF2901F5506EB003CBF1A /* AGLKContext.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFAF28D1F5506EB003CBF1A /* AGLKContext.m */; };
+		CDFAF2911F5506EB003CBF1A /* AGLKVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFAF28F1F5506EB003CBF1A /* AGLKVertexAttribArrayBuffer.m */; };
+		CDFAF2951F5514F7003CBF1A /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = CDFAF2941F5514F7003CBF1A /* Shader.fsh */; };
+		CDFAF2971F5514FF003CBF1A /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = CDFAF2961F5514FF003CBF1A /* Shader.vsh */; };
+		CDFAF29F1F551875003CBF1A /* 花.png in Resources */ = {isa = PBXBuildFile; fileRef = CDFAF29E1F551875003CBF1A /* 花.png */; };
+		CDFAF2A11F5518B7003CBF1A /* 蜜蜂.png in Resources */ = {isa = PBXBuildFile; fileRef = CDFAF2A01F5518B7003CBF1A /* 蜜蜂.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDFAF2561F4D8C4A003CBF1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDFAF2341F4D8C4A003CBF1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDFAF23B1F4D8C4A003CBF1A;
+			remoteInfo = "OpenGL自定义立方体多重纹理";
+		};
+		CDFAF2611F4D8C4A003CBF1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDFAF2341F4D8C4A003CBF1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDFAF23B1F4D8C4A003CBF1A;
+			remoteInfo = "OpenGL自定义立方体多重纹理";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDFAF23C1F4D8C4A003CBF1A /* OpenGL自定义立方体多重纹理.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGL自定义立方体多重纹理.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDFAF2401F4D8C4A003CBF1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDFAF2421F4D8C4A003CBF1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDFAF2431F4D8C4A003CBF1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDFAF2451F4D8C4A003CBF1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CDFAF2461F4D8C4A003CBF1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CDFAF2491F4D8C4A003CBF1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDFAF24B1F4D8C4A003CBF1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDFAF24E1F4D8C4A003CBF1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDFAF2501F4D8C4A003CBF1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDFAF2551F4D8C4A003CBF1A /* OpenGL自定义立方体多重纹理Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGL自定义立方体多重纹理Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDFAF2591F4D8C4A003CBF1A /* OpenGL__________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGL__________Tests.m"; sourceTree = "<group>"; };
+		CDFAF25B1F4D8C4A003CBF1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDFAF2601F4D8C4A003CBF1A /* OpenGL自定义立方体多重纹理UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGL自定义立方体多重纹理UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDFAF2641F4D8C4A003CBF1A /* OpenGL__________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGL__________UITests.m"; sourceTree = "<group>"; };
+		CDFAF2661F4D8C4A003CBF1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDFAF28C1F5506EB003CBF1A /* AGLKContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKContext.h; sourceTree = "<group>"; };
+		CDFAF28D1F5506EB003CBF1A /* AGLKContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKContext.m; sourceTree = "<group>"; };
+		CDFAF28E1F5506EB003CBF1A /* AGLKVertexAttribArrayBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKVertexAttribArrayBuffer.h; sourceTree = "<group>"; };
+		CDFAF28F1F5506EB003CBF1A /* AGLKVertexAttribArrayBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKVertexAttribArrayBuffer.m; sourceTree = "<group>"; };
+		CDFAF2941F5514F7003CBF1A /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		CDFAF2961F5514FF003CBF1A /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+		CDFAF29E1F551875003CBF1A /* 花.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "花.png"; sourceTree = "<group>"; };
+		CDFAF2A01F5518B7003CBF1A /* 蜜蜂.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蜜蜂.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDFAF2391F4D8C4A003CBF1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFAF2521F4D8C4A003CBF1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFAF25D1F4D8C4A003CBF1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDFAF2331F4D8C4A003CBF1A = {
+			isa = PBXGroup;
+			children = (
+				CDFAF23E1F4D8C4A003CBF1A /* OpenGL自定义立方体多重纹理 */,
+				CDFAF2581F4D8C4A003CBF1A /* OpenGL自定义立方体多重纹理Tests */,
+				CDFAF2631F4D8C4A003CBF1A /* OpenGL自定义立方体多重纹理UITests */,
+				CDFAF23D1F4D8C4A003CBF1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDFAF23D1F4D8C4A003CBF1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDFAF23C1F4D8C4A003CBF1A /* OpenGL自定义立方体多重纹理.app */,
+				CDFAF2551F4D8C4A003CBF1A /* OpenGL自定义立方体多重纹理Tests.xctest */,
+				CDFAF2601F4D8C4A003CBF1A /* OpenGL自定义立方体多重纹理UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDFAF23E1F4D8C4A003CBF1A /* OpenGL自定义立方体多重纹理 */ = {
+			isa = PBXGroup;
+			children = (
+				CDFAF28C1F5506EB003CBF1A /* AGLKContext.h */,
+				CDFAF28D1F5506EB003CBF1A /* AGLKContext.m */,
+				CDFAF28E1F5506EB003CBF1A /* AGLKVertexAttribArrayBuffer.h */,
+				CDFAF28F1F5506EB003CBF1A /* AGLKVertexAttribArrayBuffer.m */,
+				CDFAF2421F4D8C4A003CBF1A /* AppDelegate.h */,
+				CDFAF2431F4D8C4A003CBF1A /* AppDelegate.m */,
+				CDFAF2451F4D8C4A003CBF1A /* ViewController.h */,
+				CDFAF2461F4D8C4A003CBF1A /* ViewController.m */,
+				CDFAF2481F4D8C4A003CBF1A /* Main.storyboard */,
+				CDFAF2831F502C5E003CBF1A /* Shaders */,
+				CDFAF24B1F4D8C4A003CBF1A /* Assets.xcassets */,
+				CDFAF24D1F4D8C4A003CBF1A /* LaunchScreen.storyboard */,
+				CDFAF2501F4D8C4A003CBF1A /* Info.plist */,
+				CDFAF23F1F4D8C4A003CBF1A /* Supporting Files */,
+			);
+			path = "OpenGL自定义立方体多重纹理";
+			sourceTree = "<group>";
+		};
+		CDFAF23F1F4D8C4A003CBF1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDFAF2401F4D8C4A003CBF1A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDFAF2581F4D8C4A003CBF1A /* OpenGL自定义立方体多重纹理Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CDFAF2591F4D8C4A003CBF1A /* OpenGL__________Tests.m */,
+				CDFAF25B1F4D8C4A003CBF1A /* Info.plist */,
+			);
+			path = "OpenGL自定义立方体多重纹理Tests";
+			sourceTree = "<group>";
+		};
+		CDFAF2631F4D8C4A003CBF1A /* OpenGL自定义立方体多重纹理UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDFAF2641F4D8C4A003CBF1A /* OpenGL__________UITests.m */,
+				CDFAF2661F4D8C4A003CBF1A /* Info.plist */,
+			);
+			path = "OpenGL自定义立方体多重纹理UITests";
+			sourceTree = "<group>";
+		};
+		CDFAF2831F502C5E003CBF1A /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				CDFAF2A01F5518B7003CBF1A /* 蜜蜂.png */,
+				CDFAF29E1F551875003CBF1A /* 花.png */,
+				CDFAF2941F5514F7003CBF1A /* Shader.fsh */,
+				CDFAF2961F5514FF003CBF1A /* Shader.vsh */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDFAF23B1F4D8C4A003CBF1A /* OpenGL自定义立方体多重纹理 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDFAF2691F4D8C4A003CBF1A /* Build configuration list for PBXNativeTarget "OpenGL自定义立方体多重纹理" */;
+			buildPhases = (
+				CDFAF2381F4D8C4A003CBF1A /* Sources */,
+				CDFAF2391F4D8C4A003CBF1A /* Frameworks */,
+				CDFAF23A1F4D8C4A003CBF1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenGL自定义立方体多重纹理";
+			productName = "OpenGL自定义立方体多重纹理";
+			productReference = CDFAF23C1F4D8C4A003CBF1A /* OpenGL自定义立方体多重纹理.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDFAF2541F4D8C4A003CBF1A /* OpenGL自定义立方体多重纹理Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDFAF26C1F4D8C4A003CBF1A /* Build configuration list for PBXNativeTarget "OpenGL自定义立方体多重纹理Tests" */;
+			buildPhases = (
+				CDFAF2511F4D8C4A003CBF1A /* Sources */,
+				CDFAF2521F4D8C4A003CBF1A /* Frameworks */,
+				CDFAF2531F4D8C4A003CBF1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDFAF2571F4D8C4A003CBF1A /* PBXTargetDependency */,
+			);
+			name = "OpenGL自定义立方体多重纹理Tests";
+			productName = "OpenGL自定义立方体多重纹理Tests";
+			productReference = CDFAF2551F4D8C4A003CBF1A /* OpenGL自定义立方体多重纹理Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDFAF25F1F4D8C4A003CBF1A /* OpenGL自定义立方体多重纹理UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDFAF26F1F4D8C4A003CBF1A /* Build configuration list for PBXNativeTarget "OpenGL自定义立方体多重纹理UITests" */;
+			buildPhases = (
+				CDFAF25C1F4D8C4A003CBF1A /* Sources */,
+				CDFAF25D1F4D8C4A003CBF1A /* Frameworks */,
+				CDFAF25E1F4D8C4A003CBF1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDFAF2621F4D8C4A003CBF1A /* PBXTargetDependency */,
+			);
+			name = "OpenGL自定义立方体多重纹理UITests";
+			productName = "OpenGL自定义立方体多重纹理UITests";
+			productReference = CDFAF2601F4D8C4A003CBF1A /* OpenGL自定义立方体多重纹理UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDFAF2341F4D8C4A003CBF1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = liuyang;
+				TargetAttributes = {
+					CDFAF23B1F4D8C4A003CBF1A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3VMZN2938E;
+						ProvisioningStyle = Automatic;
+					};
+					CDFAF2541F4D8C4A003CBF1A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3VMZN2938E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CDFAF23B1F4D8C4A003CBF1A;
+					};
+					CDFAF25F1F4D8C4A003CBF1A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3VMZN2938E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CDFAF23B1F4D8C4A003CBF1A;
+					};
+				};
+			};
+			buildConfigurationList = CDFAF2371F4D8C4A003CBF1A /* Build configuration list for PBXProject "OpenGL自定义立方体多重纹理" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDFAF2331F4D8C4A003CBF1A;
+			productRefGroup = CDFAF23D1F4D8C4A003CBF1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDFAF23B1F4D8C4A003CBF1A /* OpenGL自定义立方体多重纹理 */,
+				CDFAF2541F4D8C4A003CBF1A /* OpenGL自定义立方体多重纹理Tests */,
+				CDFAF25F1F4D8C4A003CBF1A /* OpenGL自定义立方体多重纹理UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDFAF23A1F4D8C4A003CBF1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFAF29F1F551875003CBF1A /* 花.png in Resources */,
+				CDFAF2951F5514F7003CBF1A /* Shader.fsh in Resources */,
+				CDFAF2971F5514FF003CBF1A /* Shader.vsh in Resources */,
+				CDFAF24F1F4D8C4A003CBF1A /* LaunchScreen.storyboard in Resources */,
+				CDFAF24C1F4D8C4A003CBF1A /* Assets.xcassets in Resources */,
+				CDFAF24A1F4D8C4A003CBF1A /* Main.storyboard in Resources */,
+				CDFAF2A11F5518B7003CBF1A /* 蜜蜂.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFAF2531F4D8C4A003CBF1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFAF25E1F4D8C4A003CBF1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDFAF2381F4D8C4A003CBF1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFAF2901F5506EB003CBF1A /* AGLKContext.m in Sources */,
+				CDFAF2471F4D8C4A003CBF1A /* ViewController.m in Sources */,
+				CDFAF2911F5506EB003CBF1A /* AGLKVertexAttribArrayBuffer.m in Sources */,
+				CDFAF2441F4D8C4A003CBF1A /* AppDelegate.m in Sources */,
+				CDFAF2411F4D8C4A003CBF1A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFAF2511F4D8C4A003CBF1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFAF25A1F4D8C4A003CBF1A /* OpenGL__________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFAF25C1F4D8C4A003CBF1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFAF2651F4D8C4A003CBF1A /* OpenGL__________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDFAF2571F4D8C4A003CBF1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDFAF23B1F4D8C4A003CBF1A /* OpenGL自定义立方体多重纹理 */;
+			targetProxy = CDFAF2561F4D8C4A003CBF1A /* PBXContainerItemProxy */;
+		};
+		CDFAF2621F4D8C4A003CBF1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDFAF23B1F4D8C4A003CBF1A /* OpenGL自定义立方体多重纹理 */;
+			targetProxy = CDFAF2611F4D8C4A003CBF1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDFAF2481F4D8C4A003CBF1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDFAF2491F4D8C4A003CBF1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDFAF24D1F4D8C4A003CBF1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDFAF24E1F4D8C4A003CBF1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDFAF2671F4D8C4A003CBF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDFAF2681F4D8C4A003CBF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDFAF26A1F4D8C4A003CBF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3VMZN2938E;
+				INFOPLIST_FILE = "OpenGL自定义立方体多重纹理/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YoungLiu.OpenGL----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDFAF26B1F4D8C4A003CBF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3VMZN2938E;
+				INFOPLIST_FILE = "OpenGL自定义立方体多重纹理/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YoungLiu.OpenGL----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CDFAF26D1F4D8C4A003CBF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3VMZN2938E;
+				INFOPLIST_FILE = "OpenGL自定义立方体多重纹理Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YoungLiu.OpenGL----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGL自定义立方体多重纹理.app/OpenGL自定义立方体多重纹理";
+			};
+			name = Debug;
+		};
+		CDFAF26E1F4D8C4A003CBF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3VMZN2938E;
+				INFOPLIST_FILE = "OpenGL自定义立方体多重纹理Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YoungLiu.OpenGL----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGL自定义立方体多重纹理.app/OpenGL自定义立方体多重纹理";
+			};
+			name = Release;
+		};
+		CDFAF2701F4D8C4A003CBF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3VMZN2938E;
+				INFOPLIST_FILE = "OpenGL自定义立方体多重纹理UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YoungLiu.OpenGL----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OpenGL自定义立方体多重纹理";
+			};
+			name = Debug;
+		};
+		CDFAF2711F4D8C4A003CBF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3VMZN2938E;
+				INFOPLIST_FILE = "OpenGL自定义立方体多重纹理UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YoungLiu.OpenGL----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OpenGL自定义立方体多重纹理";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDFAF2371F4D8C4A003CBF1A /* Build configuration list for PBXProject "OpenGL自定义立方体多重纹理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFAF2671F4D8C4A003CBF1A /* Debug */,
+				CDFAF2681F4D8C4A003CBF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDFAF2691F4D8C4A003CBF1A /* Build configuration list for PBXNativeTarget "OpenGL自定义立方体多重纹理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFAF26A1F4D8C4A003CBF1A /* Debug */,
+				CDFAF26B1F4D8C4A003CBF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDFAF26C1F4D8C4A003CBF1A /* Build configuration list for PBXNativeTarget "OpenGL自定义立方体多重纹理Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFAF26D1F4D8C4A003CBF1A /* Debug */,
+				CDFAF26E1F4D8C4A003CBF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDFAF26F1F4D8C4A003CBF1A /* Build configuration list for PBXNativeTarget "OpenGL自定义立方体多重纹理UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFAF2701F4D8C4A003CBF1A /* Debug */,
+				CDFAF2711F4D8C4A003CBF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDFAF2341F4D8C4A003CBF1A /* Project object */;
+}
