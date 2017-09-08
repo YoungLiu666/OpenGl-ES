@@ -13,7 +13,7 @@ varying lowp vec4 vColor;
 varying lowp vec2 vTextureCoord0;
 varying lowp vec2 vTextureCoord1;
 
-uniform mat4 uModelViewProjectionMatrix; 4乘4矩阵
+uniform mat4 uModelViewProjectionMatrix; //4乘4矩阵
 uniform mat3 uNormalMatrix;
 
 void main()
