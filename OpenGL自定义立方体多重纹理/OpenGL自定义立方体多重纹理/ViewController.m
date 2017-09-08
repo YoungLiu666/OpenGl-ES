@@ -74,7 +74,7 @@ typedef struct {
 SceneVertex;
 
 
-// 定义一个三角形的顶点数据，在示例中使用  正方体其实就是由6个矩形组成的几何体，X，Y，Z轴上各两个矩形
+// 定义一个三角形的顶点数据，在示例中使用  正方体其实就是由6个矩形组成的几何体，X，Y，Z轴上各两个矩形    纹理坐标（0，1）
 static const SceneVertex vertices[] =
 {
     //x轴两个矩形
@@ -129,7 +129,7 @@ static const SceneVertex vertices[] =
     [super viewDidLoad];
     
     
-    // //初始化上下文
+    //初始化上下文
     GLKView *view = (GLKView *)self.view;
     NSAssert([view isKindOfClass:[GLKView class]],
              @"View controller's view is not a GLKView");
@@ -142,6 +142,7 @@ static const SceneVertex vertices[] =
     
     [AGLKContext setCurrentContext:view.context];
     
+    //加载shaders
     [self loadShaders];
     
    
@@ -220,7 +221,7 @@ static const SceneVertex vertices[] =
     GLKMatrix4 baseModelViewMatrix = GLKMatrix4MakeTranslation(0.0f, 0.0f, -4.0f);
     baseModelViewMatrix = GLKMatrix4Rotate(baseModelViewMatrix, _rotation, 0.0f, 1.0f, 0.0f);
     
-    // GLKit提供计算的模型视图矩阵为对象
+    // GLKit提供计算的模型视图矩阵对象
     GLKMatrix4 modelViewMatrix = GLKMatrix4MakeTranslation(0.0f, 0.0f, -1.5f);
     modelViewMatrix = GLKMatrix4Rotate(modelViewMatrix, _rotation, 1.0f, 1.0f, 1.0f);
     modelViewMatrix = GLKMatrix4Multiply(baseModelViewMatrix, modelViewMatrix);

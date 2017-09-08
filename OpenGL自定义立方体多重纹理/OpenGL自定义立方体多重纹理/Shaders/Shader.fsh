@@ -1,10 +1,10 @@
 //
-//  Shader.fsh
+//  Shader.fsh 片段着色器
 //
 //
 
 
-//uniform 给顶点着色齐和片段着色器赋值的，
+//uniform 给顶点着色器和片段着色器赋值的，从程序外部给shader赋值，值不可改变，相当于全局变量
 uniform sampler2D uSampler0;
 uniform sampler2D uSampler1;
 
